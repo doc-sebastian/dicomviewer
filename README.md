@@ -7,6 +7,8 @@ Currently viewer opens only for dcm-files :-(
 Hopefully Aysel can help....
 
 
+<kbd>![Viewer 1](https://github.com/doc-sebastian/dicomviewer/blob/master/screenshots/viewer1.jpg)  </kbd>
+
 -------
 
 
