@@ -1,7 +1,9 @@
 ***FORK of the wonderful Nextcloud DicomViewer by Aysel Afsar Ozkan***
 
 changes: German translation (in progress)
+
 changes: Grayscale Colors
+
 changes: Registration of common DICOM file extensions (*.dcm, *.dicom, *.dc3, *.ima, *.dic) - currently viewer opens only for dcm-files :-(
 
 
