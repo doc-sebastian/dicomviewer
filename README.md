@@ -5,6 +5,10 @@ changes: Grayscale Colors
 changes: Registration of common DICOM file extensions (*.dcm, *.dicom, *.dc3, *.ima, *.dic) - currently viewer opens only for dcm-files :-(
 
 
+-------
+
+
+
 [![Support][support-image]][support-url]
 
 # DICOM Viewer
