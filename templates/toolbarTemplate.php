@@ -5,7 +5,7 @@
                 <div class="svgContent series-panel"></div>
             </div>
             <div class="buttonLabel">
-                <span>Series</span>
+                <span>Serien</span>
             </div>
         </div>
     </div>
