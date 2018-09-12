@@ -37,6 +37,6 @@
 
     <!-- Loading View which shows the percentage of the loaded files -->
     <div class="loadingViewerMain">
-        Loading... <span id="loadingPercentage">0</span>%
+        Lade ... <span id="loadingPercentage">0</span>%
     </div>
 </div>
