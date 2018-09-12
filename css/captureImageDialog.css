@@ -3,8 +3,8 @@
 }
 
 .captureImageDialog .modal-content {
-    background-color: #000;
-    color: #91b9cd;
+    background-color: #4B4B4B;
+    color: #B4B4B4;
 }
 
 .captureImageDialog .modal-title {
@@ -13,7 +13,7 @@
 }
 
 .captureImageDialog .btn-image-download {
-    background-color: #16202b !important;
+    background-color: #212121 !important;
     color: #ffffff !important;
     border-color: #92b9cc !important;
 }
@@ -29,7 +29,7 @@
 }
 
 .captureImageDialog .btn-close > span {
-    color: #91b9cd;
+    color: #B4B4B4;
 }
 
 .captureImageDialog .btn-close:hover > span {
@@ -38,7 +38,7 @@
 }
 
 .captureImageDialog .card-round {
-    background-color: #16202b;
+    background-color: #333;
     border-radius: 5px;
     padding: 10px;
 }
@@ -106,8 +106,8 @@
 
 .captureImageDialog .form-control, .captureImageDialog .form-control:hover,
 .captureImageDialog .form-control:focus {
-    background-color: #16202b !important;
-    border-color: #91b9cd;
+    background-color: #333 !important;
+    border-color: #B4B4B4;
     color: #fff;
 }
 
@@ -116,7 +116,7 @@
 }
 
 .captureImageDialog #keepAspectRatio {
-    color: #91b9cd;
+    color: #B4B4B4;
     margin-left: 10px;
 }
 
