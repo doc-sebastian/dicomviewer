@@ -18,8 +18,8 @@ footer.hidden {
 
 
 .toolbarSection {
-    background-color: #000;
-    border-bottom: 1px solid #44626f;
+    background-color: #333333;
+    border-bottom: 1px solid #B4B4B4;
     flex: 0 0 auto;
     height: 50px;
     padding-top: 6px;
@@ -29,7 +29,7 @@ footer.hidden {
 }
 
 .toolbarSectionButton {
-    color: #91b9cd;
+    color: #B4B4B4;
     cursor: pointer;
     display: inline-block;
     min-width: 30px;
@@ -41,7 +41,7 @@ footer.hidden {
 }
 
 .toolbarSectionButton > .buttonLabel {
-    color: #91b9cd;
+    color: #B4B4B4;
     font-size: 12px;
     font-weight: 600;
     line-height: 17px;
@@ -55,7 +55,7 @@ footer.hidden {
     margin: 0 auto;
     text-align: center;
     cursor: pointer;
-    color: #91b9cd;
+    color: #B4B4B4;
 }
 
 .toolbarSectionButton > .svgContainer > i {
@@ -64,7 +64,7 @@ footer.hidden {
 }
 
 .svgContent {
-    background-color: #91b9cd;
+    background-color: #B4B4B4;
     cursor: pointer;
     margin: 2px auto;
     width: 21px;
@@ -96,11 +96,11 @@ footer.hidden {
 }
 
 .active > .buttonLabel, .active > .svgContainer{
-    color: #20a5d6;
+    color: #939393;
 }
 
 .active .svgContent {
-    background-color: #20a5d6;
+    background-color: #444;
 }
 
 .button-close {
@@ -108,7 +108,7 @@ footer.hidden {
 }
 
 .button-close {
-    background-color: #000;
+    background-color: #4B4B4B;
     border: none;
     color: #dcdcdc;
     display: inline-block;
@@ -116,7 +116,7 @@ footer.hidden {
     line-height: 14px;
     position: absolute;
     top: 15px;
-    right: 6px;
+    right: 6px;					  
     white-space: nowrap;
     vertical-align: middle;
 }
@@ -124,6 +124,7 @@ footer.hidden {
 .button-close:hover {
     color: #fff;
 }
+
 
 
 /* Viewer */
@@ -150,7 +151,7 @@ footer.hidden {
 }
 
 .imageViewerViewportOverlay {
-    color: #91b9cd;
+    color: #B4B4B4;
 }
 
 .dicomTag {
@@ -168,7 +169,7 @@ footer.hidden {
 
 .topright {
     top: 15px;
-    right: 30px;
+    right: 15px;
     text-align: right;
 }
 
@@ -179,7 +180,7 @@ footer.hidden {
 
 .bottomright {
     bottom: 15px;
-    right: 30px;
+    right: 15px;
     text-align: right;
 }
 
@@ -213,7 +214,7 @@ footer.hidden {
     left: 0;
     right: 0;
     text-align: center;
-    color: #91b9cd;
+    color: #B4B4B4;
 }
 
 
