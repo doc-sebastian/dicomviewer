@@ -23,7 +23,7 @@
     align-items: center;
     justify-content: center;
     font-size: 32px;
-    color: #44626f;
+    color: #5A5A5A;
 }
 
 #viewerMain .toolbar {
@@ -39,13 +39,13 @@
     flex: 1;
     display: flex;
     width: 100%;
-    border: 1px solid #44626f;
+    border: 1px solid #5A5A5A;
     overflow: auto;
 }
 
 #viewerMain .sidebarMenu {
     width: 0;
-    border-right: 1px solid #44626f;
+    border-right: 1px solid #5A5A5A;
     transition: all 0.3s ease;
 }
 
@@ -60,7 +60,7 @@
 }
 
 #viewerMain .viewerMainLoading {
-    color: #44626f;
+    color: #5A5A5A;
     text-align: center;
     font-size: 20px;
     margin-top: 40%;
@@ -120,7 +120,7 @@
 }
 
 .imageThumbnail {
-    border: 1px solid #44626f;
+    border: 1px solid #5A5A5A;
     border-radius: 12px;
     cursor: grab;
     height: 135px;
@@ -137,7 +137,7 @@
 }
 
 .imageThumbnail.active {
-    border: 5px solid #2CA6D4;
+    border: 5px solid #B4B4B4;
 }
 
 .imageThumbnailCanvas {
@@ -174,7 +174,7 @@
 }
 
 .seriesInformation .icon {
-    color: #20a5d6;
+    color: #7B7B7B;
     display: inline-block;
     float: left;
     font-size: 10px;
@@ -184,7 +184,7 @@
 }
 
 .seriesInformation .icon > div {
-    background-color: #678696;
+    background-color: #7F7F7F;
     margin-top: 6px;
     position: relative;
     content: '';
@@ -194,7 +194,7 @@
 }
 
 .seriesInformation .icon div:after {
-    background-color: #20a5d6;
+    background-color: #7B7B7B;
     box-shadow: 1px 1px rgba(0, 0, 0, .115);
     left: -5px;
     position: absolute;
@@ -207,7 +207,7 @@
 }
 
 .seriesInformation .value {
-    color: #91b9cd;
+    color: #AFAFAF;
     display: inline-block;
     float: right;
     font-size: 12px;
@@ -228,7 +228,7 @@
 }
 
 #toolbar .toolbarSectionButton {
-    color: #91b9cd;
+    color: #B4B4B4;
     cursor: pointer;
     display: inline-block;
     min-width: 30px;
@@ -240,7 +240,7 @@
 }
 
 #toolbar .toolbarSectionButton > .buttonLabel {
-    color: #91b9cd;
+    color: #B4B4B4;
     font-size: 12px;
     font-weight: 600;
     line-height: 17px;
@@ -254,7 +254,7 @@
     margin: 0 auto;
     text-align: center;
     cursor: pointer;
-    color: #91b9cd;
+    color: #B4B4B4;
 }
 
 #toolbar .toolbarSectionButton > .svgContainer > i {
@@ -263,7 +263,7 @@
 }
 
 .svgContent {
-    background-color: #91b9cd;
+    background-color: #B4B4B4;
     cursor: pointer;
     margin: 2px auto;
     width: 21px;
@@ -303,11 +303,11 @@
 }
 
 #toolbar .active > .buttonLabel, #toolbar .active > .svgContainer{
-    color: #20a5d6;
+    color: #fff;
 }
 
 #toolbar .active .svgContent {
-    background-color: #20a5d6;
+    background-color: #fff;
 }
 
 #toolbar .toggleSeriesPanel {
@@ -320,7 +320,7 @@
 }
 
 #toolbar .toggleSeriesPanel .svgContainer {
-    border: 2px solid #91b9cd;
+    border: 2px solid #AFAFAF;
     border-radius: 15px;
     width: 50px;
 }
@@ -337,25 +337,25 @@
 }
 
 #toolbar .toggleSeriesPanelButton.active > .svgContainer {
-    border-color: #2CA6D4;
-    color: #2CA6D4 !important;
+    border-color: #B4B4B4;
+    color: #B4B4B4 !important;
 }
 
 #toolbar .toggleSeriesPanelButton.active > .buttonLabel > span  {
-    color: #2CA6D4 !important;
+    color: #B4B4B4 !important;
 }
 
 #toolbar .toggleSeriesPanelButton:hover .svgContent {
-    background-color: #2CA6D4 !important;
+    background-color: #B4B4B4 !important;
 }
 
 #toolbar .toggleSeriesPanelButton:hover > .svgContainer {
-    border-color: #2CA6D4;
-    color: #2CA6D4 !important;
+    border-color: #B4B4B4;
+    color: #B4B4B4 !important;
 }
 
 #toolbar .toggleSeriesPanelButton:hover > .buttonLabel > span {
-    color: #2CA6D4 !important;
+    color: #B4B4B4 !important;
 }
 
 .imageControls {
@@ -434,7 +434,7 @@
 
 .imageControls .scrollbar .imageSlider::-webkit-slider-thumb {
     -webkit-appearance: none !important;
-    background-color: #163239;
+    background-color: #333;
     border: none;
     border-radius: 57px;
     cursor: -webkit-grab;
@@ -444,12 +444,17 @@
 }
 
 .imageControls .scrollbar .imageSlider::-webkit-slider-thumb:active {
-    background-color: #2CA6D4;
+    background-color: #B4B4B4;
+    cursor: -webkit-grabbing
+}
+
+.imageControls .scrollbar .imageSlider::-webkit-slider-thumb:hover {
+    background-color: #B4B4B4;
     cursor: -webkit-grabbing
 }
 
 .imageControls .scrollbar .imageSlider::-moz-range-thumb {
-    background-color: #163239;
+    background-color: #333;
     border: none;
     border-radius: 57px;
     cursor: -moz-grab;
@@ -459,12 +464,12 @@
 }
 
 .imageControls .scrollbar .imageSlider::-moz-range-thumb:active {
-    background-color: #2CA6D4;
+    background-color: #B4B4B4;
     cursor: -moz-grabbing;
 }
 
 .imageControls .scrollbar .imageSlider::-ms-thumb {
-    background-color: #163239;
+    background-color: #333;
     border: none;
     border-radius: 57px;
     cursor: ns-resize;
@@ -473,7 +478,11 @@
 }
 
 .imageControls .scrollbar .imageSlider::-ms-thumb:active {
-    background-color: #2CA6D4;
+    background-color: #B4B4B4;
+}
+
+.imageControls .scrollbar .imageSlider::-ms-thumb:hover {
+    background-color: #B4B4B4;
 }
 
 .imageControls .scrollbar .imageSlider::-ms-tooltip {
@@ -496,7 +505,7 @@
 
 #studyBrowserAccordion .study-text .study-date {
     margin-top: 8px;
-    color: #91b9cd;
+    color: #AFAFAF;
     cursor: grab;
 }
 
@@ -516,13 +525,13 @@
 }
 
 #studyBrowserAccordion div:not(.collapsed) .study-item-box:hover {
-    background-color: #14191E;
-    border-color: #2d4660;
+    background-color: #191919;
+    border-color: #474747;
 }
 
 #studyBrowserAccordion div:not(.collapsed) .study-modality:before  {
     position: absolute;
-    background-color: #2CA6D4;
+    background-color: #B4B4B4;
     border: 2px solid #000000;
     border-radius: 8px;
     content: '';
@@ -540,7 +549,7 @@
     color: #000000;
     width: 50px;
     height: 50px;
-    background-color: #2CA6D4;
+    background-color: #B4B4B4;
     font-size: 14px;
     line-height: 50px;
     margin-left: 12px;
@@ -550,7 +559,7 @@
 
 #studyBrowserAccordion div:not(.collapsed) .study-modality:after {
     position: absolute;
-    background-color: #2CA6D4;
+    background-color: #B4B4B4;
     border: 2px solid #000000;
     border-radius: 8px;
     content: '';
@@ -572,8 +581,8 @@
 #studyBrowserAccordion div.collapsed .study-modality:before,
 #studyBrowserAccordion div.collapsed .study-modality,
 #studyBrowserAccordion div.collapsed .study-modality:after {
-    background-color: #2d4660;
-    color: #91b9cd;
+    background-color: #474747;
+    color: #AFAFAF;
 }
 
 
