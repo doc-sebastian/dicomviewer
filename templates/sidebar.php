@@ -6,14 +6,14 @@
             </div>
         </div>
     </div>
-    <h5><strong>DICOM Attributes</strong></h5>
+    <h5><strong>DICOM Attribute</strong></h5>
     <div class="attributes-search-container">
-        <input type="text" class="form-control dicom-attributes-search" placeholder="Search for attributes.." title="Type in an attribute">
+        <input type="text" class="form-control dicom-attributes-search" placeholder="Suche nach Attributen.." title="gesuchtes Attribut eingeben">
     </div>
 
     <div class="sidebar-content-loading">
         <i class="fa fa-spinner fa-spin"></i>
-        <span>Parsing DICOM file...</span>
+        <span>Analysiere DICOM ...</span>
     </div>
 
     <div class="sidebar-table-container">
@@ -21,7 +21,7 @@
             <thead>
             <tr>
                 <th>Attribute</th>
-                <th>Value</th>
+                <th>Werte</th>
             </tr>
             </thead>
             <tbody></tbody>
