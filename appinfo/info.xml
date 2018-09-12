@@ -2,7 +2,7 @@
 <info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
     <id>dicomviewer</id>
-    <name>DICOM Viewer</name>
+    <name>DICOM Viewer *mod*</name>
     <summary>Digital Imaging for Medicine</summary>
     <description><![CDATA[DICOM Viewer allows to display and manipulate DICOM images with a streamlined sidebar and viewer.
 
