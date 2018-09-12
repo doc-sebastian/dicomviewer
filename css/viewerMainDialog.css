@@ -151,9 +151,9 @@
     pointer-events: auto;
     background-color: #000;
     background-clip: padding-box;
-    border: 1px solid #91b9cd;
+    border: 1px solid #B4B4B4;
     border-radius: 6px;
-    color: #91b9cd;
+    color: #B4B4B4;
     outline: 0;
 }
 
@@ -218,7 +218,7 @@
     -ms-flex-pack: end;
     justify-content: flex-end;
     padding: 1rem;
-    border-top: 1px solid #91b9cd;
+    border-top: 1px solid #B4B4B4;
 }
 
 #viewerMain .modal-footer > :not(:first-child) {
