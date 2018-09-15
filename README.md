@@ -2,9 +2,6 @@
 
 * changes: German translation (in progress)
 * changes: Grayscale Colors
-* changes: Registration of common DICOM file extensions (*.dcm, *.dicom, *.dc3, *.ima, *.dic).   
-Currently viewer opens only for dcm-files :-(   
-Hopefully Aysel can help....
 
 
 <kbd>![Viewer 1](https://github.com/doc-sebastian/dicomviewer/blob/master/screenshots/viewer1.jpg)  </kbd>
