@@ -1,6 +1,6 @@
 ***FORK of the wonderful Nextcloud DicomViewer by Aysel Afsar Ozkan***
 
-* changes: German translation (in progress)
+* changes: German translation (in progress, check "patch-2" for latest version)
 * changes: Grayscale Colors
 
 
